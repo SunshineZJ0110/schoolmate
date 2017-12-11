@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Schoolmate</string>
+    <string name="friendList">好友列表</string>
+    <string name="searchAddFriends">搜索并添加好友</string>
+    <string name="notice">通知</string>
+    <string name="addFriends">添加</string>
+    <string name="back">返回</string>
+    <string name="tip">请输入搜索电话、昵称</string>
+    <string name="search">搜索</string>
+</resources>

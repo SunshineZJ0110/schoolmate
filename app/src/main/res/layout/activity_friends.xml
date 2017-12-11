@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bupt.sse.schoolmate.FriendsActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen">
+
+        <Button
+            android:id="@+id/notice"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorWhite"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/notice"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="好友列表"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/addFriends"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorWhite"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/addFriends"/>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorGrey"/>
+    <ListView
+        android:id="@+id/friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>
